@@ -79,7 +79,6 @@ class ShortUrlController extends Controller
             $short_url .= substr($chars, rand(1, $numChars) - 1, 1);
         }
 
-
         return $host . "/" . $short_url;
     }
 }
